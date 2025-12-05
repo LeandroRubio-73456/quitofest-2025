@@ -2,6 +2,8 @@ import { FaFacebookF } from "react-icons/fa6";
 import { FaInstagram } from "react-icons/fa";
 import { FaXTwitter } from "react-icons/fa6";
 import { FaTiktok } from "react-icons/fa";
+import { FaReact } from "react-icons/fa";
+import { RiTailwindCssFill } from "react-icons/ri";
 
 export function Footer() {
     return (
@@ -36,20 +38,18 @@ export function Footer() {
                     <a href="#location">Ubicacion</a>
                 </div>
                 <div className="flex flex-col justify-center items-center">
-                    <h4 className="text-2xl text-white">Legal</h4>
-                    <a href="#$">Bases Legales</a>
-                    <a href="#$">Política de Privacidad</a>
-                    <a href="#$">Términos y Condiciones</a>
+                    <h4 className="text-2xl text-white">Tecnología del Demo</h4>
+                    <p className="flex items-center gap-2"> <FaReact className="size-6"/>Framework: React JS</p>
+                    <p className="flex items-center gap-2"> <RiTailwindCssFill className="size-6"/>Estilos: Tailwind CSS</p>
                 </div>
                 <div className="flex flex-col justify-center items-center">
                     <h4 className="text-2xl text-white">Contacto</h4>
-                    <p>Organiza: Fundación Música Joven</p>
-                    <p>Email: contacto@quitofest.org</p>
-                    <p>Parque Bicentenario, Quito, EC</p>
+                    <p>Proyecto de Portafolio por Leandro Rubio</p>
+                    <p>Email: leandrorubio456@gmail.com</p>
                 </div>
             </div>
             <hr className='text-white w-9/10 mx-auto' />
-            <p>© 2025 Quito Fest. Todos los derechos reservados.</p>
+            <p>© 2025 Quito Fest. Concepto de Portafolio.</p>
         </footer>
     )
 
