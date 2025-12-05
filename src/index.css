@@ -1,0 +1,41 @@
+@import url('https://fonts.googleapis.com/css2?family=Lexend:wght@100..900&family=Oswald:wght@200..700&display=swap');
+@import "tailwindcss";
+
+.lexend {
+  font-family: "Lexend", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 2 - 700;
+  font-style: normal;
+}
+
+.oswald { 
+  font-family: "Oswald", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 200 - 700;
+  font-style: normal;
+}
+
+@theme {
+  --color-amarillo: #ffda27;
+  --color-amarillo-transparente: #ffda271f;
+  --color-amarillo-oscuro: #e6c223;
+  --color-amarillo-claro: #ffea4d;
+
+  --color-naranja: #ee7859;
+  --color-naranja-oscuro: #cf6843;
+  --color-naranja-claro: #ff8c6a;
+  --color-naranja-transparente: #ee78591f;
+
+  --color-rosa: #ec68a4;
+  --color-rosa-oscuro: #c4558f;
+  --color-rosa-claro: #f29acb;
+  --color-rosa-transparente: #ec68a41f;
+
+  --color-verde: #bdc10c;
+  --color-verde-transparente: #bdc10c1f;
+  --color-verde-oscuro: #9fa30a;
+  --color-verde-claro: #d4d70f;
+
+  --color-oscuro: #170b0f;
+  --color-oscuro-transparente: #170b0fc4;
+}
