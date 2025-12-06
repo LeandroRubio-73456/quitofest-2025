@@ -45,7 +45,7 @@ export function TabDay() {
     }
     return (
         <>
-            <div className="flex flex-col gap-5 items-center justify-center bg-amarillo-transparente w-fit py-4 px-6 mb-5 rounded-br-lg rounded-tl-lg">
+            <div className="flex flex-col lg:flex-row gap-5 items-center justify-center bg-amarillo-transparente w-fit py-4 px-6 mb-5 rounded-br-lg rounded-tl-lg">
                 <DayButtons days={days} />
             </div>
             <div className='p-5 flex flex-wrap justify-center gap-10 w-3/4 mx-auto'>
