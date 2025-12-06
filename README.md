@@ -29,15 +29,10 @@ Incluye una navegación fluida entre secciones informativas como la cartelera de
 | Tecnología | Descripción |
 | -------    | ------- |
 | React | Biblioteca principal para la construcción de la interfaz de usuario. |
-| -------    | ------- |
 | Vite | Herramienta de construcción rápida para el desarrollo. |
-| -------    | ------- |
 | Tailwind CSS | Framework CSS utility-first para un diseño rápido y responsivo. |
-| -------    | ------- |
 | React Hooks | Uso de useState para gestionar el estado de la navegación (menú móvil). |
-| -------    | ------- |
 | Lucide React | Librería de íconos moderna y ligera. |
-| -------    | ------- |
 
 ---
 
