@@ -1,6 +1,4 @@
-# Quito Fest 2025 – Versión Web (Portafolio)
-
-por Leandro Rubio
+# Quito Fest 2025 – Versión Web (Portafolio) por Leandro Rubio
 
 ---
 
@@ -30,15 +28,15 @@ Incluye una navegación fluida entre secciones informativas como la cartelera de
 
 | Tecnología | Descripción |
 | -------    | ------- |
-|React | Biblioteca principal para la construcción de la interfaz de usuario.|
+| React | Biblioteca principal para la construcción de la interfaz de usuario. |
 
-|Vite | Herramienta de construcción rápida para el desarrollo.|
+| Vite | Herramienta de construcción rápida para el desarrollo. |
 
-|Tailwind CSS | Framework CSS utility-first para un diseño rápido y responsivo.|
+| Tailwind CSS | Framework CSS utility-first para un diseño rápido y responsivo. |
 
-|React Hooks | Uso de useState para gestionar el estado de la navegación (menú móvil).|
+| React Hooks | Uso de useState para gestionar el estado de la navegación (menú móvil). |
 
-|Lucide React | Librería de íconos moderna y ligera.|
+| Lucide React | Librería de íconos moderna y ligera. |
 
 ---
 
@@ -46,14 +44,14 @@ Incluye una navegación fluida entre secciones informativas como la cartelera de
 
 Para clonar y ejecutar este proyecto en tu entorno local, sigue los siguientes pasos:
 
-1. ** Clonar el repositorio: **
+1. **Clonar el repositorio:**
 
 ```md
 git clone [https://github.com/LeandroRubio-73456/quitofest-2025.git](https://github.com/LeandroRubio-73456/quitofest-2025.git)
 cd quitofest-2025
 ```
 
-2. ** Instalar dependencias: **
+2. **Instalar dependencias:**
 
 ```md
 npm install
@@ -61,7 +59,7 @@ npm install
 yarn install
 ```
 
-3. ** Ejecutar el proyecto en modo desarrollo: **
+3. **Ejecutar el proyecto en modo desarrollo:**
 
 ```md
 npm run dev
@@ -84,6 +82,6 @@ Este proyecto es una versión demo de portafolio creada con fines educativos y d
 
 ## Autor
 
-** Leandro Rubio **
+**Leandro Rubio**
 
-** GitHub: ** https://github.com/LeandroRubio-73456
+**GitHub:** https://github.com/LeandroRubio-73456
