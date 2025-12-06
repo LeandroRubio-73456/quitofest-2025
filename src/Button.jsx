@@ -1,5 +1,5 @@
 import { useState } from "react";
-export function Button({ text, section }) {
+export function Button({ text, section}) {
     const classMap = {
         rosa: 'bg-rosa border-rosa hover:bg-rosa-oscuro active:bg-rosa-claro focus:outline-rosa-oscuro',
         naranja: 'bg-naranja border-naranja hover:bg-naranja-oscuro active:bg-naranja-claro focus:outline-naranja-oscuro',

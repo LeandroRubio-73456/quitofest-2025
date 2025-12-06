@@ -1,4 +1,5 @@
 import { useState } from "react";
+
 export function BandCard({ nameBand, country, gender, time, headliner }) {
   const classMap = {
     amarillo: 'bg-amarillo-transparente border-amarillo text-amarillo',
