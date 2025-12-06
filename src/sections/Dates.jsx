@@ -1,5 +1,5 @@
-import { Text } from "./Text"
-import { TabDay } from "./TabDay"
+import { Text } from "../components/Text"
+import { TabDay } from "../components/TabDay"
 
 export function Dates() {
     return (

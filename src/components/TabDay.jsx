@@ -1,4 +1,4 @@
-import data from './data.json';
+import data from '../assets/data/data.json';
 import { BandCard } from './BandCard.jsx'
 import { useState } from "react";
 

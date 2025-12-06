@@ -1,6 +1,6 @@
-import data from './data.json';
-import { BandCard } from './BandCard';
-import { Text } from './Text';
+import data from '../assets/data/data.json';
+import { BandCard } from '../components/BandCard';
+import { Text } from '../components/Text';
 
 export function Bands() {
     return (

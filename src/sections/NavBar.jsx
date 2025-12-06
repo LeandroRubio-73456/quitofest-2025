@@ -7,8 +7,8 @@ import { IoOpenOutline, IoClose, IoMenu } from "react-icons/io5";
 
 import { useState } from "react";
 
-import { Button } from "./Button";
-import { ElementMenu } from "./ElementMenu";
+import { Button } from "../components/Button";
+import { ElementMenu } from "../components/ElementMenu";
 
 export function NavBar() {
     const sections = ['Inicio', 'Bandas', 'Horarios', 'Audiciones', 'Ubicación'];

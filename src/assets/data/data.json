@@ -1,0 +1,78 @@
+{
+  "lineup": [
+
+    { "day": "Viernes", "time": "14:00", "name": "Iguana Brava", "country": "EC", "genre": "Rock", "headliner": false },
+    { "day": "Viernes", "time": "14:30", "name": "TAM TAM", "country": "EC", "genre": "Rock Alternativo", "headliner": false },
+
+    { "day": "Viernes", "time": "15:00", "name": "Inmortal Kultura", "country": "EC", "genre": "Rock", "headliner": false },
+    { "day": "Viernes", "time": "15:30", "name": "Iván Pino y Los Nosotros", "country": "EC", "genre": "Fusión", "headliner": false },
+
+    { "day": "Viernes", "time": "16:00", "name": "Luis Alcívar", "country": "EC", "genre": "Cantautor", "headliner": false },
+    { "day": "Viernes", "time": "16:30", "name": "Kev Santos Band", "country": "EC", "genre": "Rock Pop", "headliner": false },
+
+    { "day": "Viernes", "time": "17:05", "name": "Banda Municipal de Quito ft. Gustavo Velásquez", "country": "EC", "genre": "Fusión", "headliner": false },
+    { "day": "Viernes", "time": "17:40", "name": "La Malamaña", "country": "EC", "genre": "Fusión Tropical", "headliner": false },
+
+    { "day": "Viernes", "time": "18:20", "name": "La Santísima Voladora", "country": "EC", "genre": "Ska", "headliner": false },
+    { "day": "Viernes", "time": "19:10", "name": "Los Amigos Invisibles", "country": "VE", "genre": "Funk/Disco", "headliner": false },
+
+    { "day": "Viernes", "time": "20:10", "name": "Guanaco", "country": "EC", "genre": "Hip Hop", "headliner": false },
+    { "day": "Viernes", "time": "21:00", "name": "Orishas", "country": "CU", "genre": "Hip Hop/Rap", "headliner": true },
+
+
+    { "day": "Sábado", "time": "14:00", "name": "Melinna", "country": "EC", "genre": "Pop", "headliner": false },
+    { "day": "Sábado", "time": "14:30", "name": "La Rola", "country": "EC", "genre": "Rock", "headliner": false },
+
+    { "day": "Sábado", "time": "15:00", "name": "Muy Valen", "country": "EC", "genre": "Indie Pop", "headliner": false },
+    { "day": "Sábado", "time": "15:30", "name": "Mr. Kilombo", "country": "ES", "genre": "Fusión", "headliner": false },
+
+    { "day": "Sábado", "time": "16:00", "name": "Menino Gutto", "country": "EC", "genre": "Indie", "headliner": false },
+    { "day": "Sábado", "time": "16:35", "name": "Nicolás y los Fumadores", "country": "CO", "genre": "Indie Rock", "headliner": false },
+
+    { "day": "Sábado", "time": "17:10", "name": "Los Ultratumba", "country": "EC", "genre": "Rock", "headliner": false },
+    { "day": "Sábado", "time": "17:45", "name": "2 Minutos", "country": "AR", "genre": "Punk Rock", "headliner": false },
+
+    { "day": "Sábado", "time": "18:30", "name": "Gianny", "country": "EC", "genre": "Pop Urbano", "headliner": false },
+    { "day": "Sábado", "time": "19:10", "name": "Siddhartha", "country": "MX", "genre": "Indie Rock", "headliner": false },
+
+    { "day": "Sábado", "time": "20:10", "name": "Guardarraya", "country": "EC", "genre": "Rock Alternativo", "headliner": false },
+    { "day": "Sábado", "time": "21:10", "name": "Bersuit Vergarabat", "country": "AR", "genre": "Rock/Fusión", "headliner": true },
+
+
+    { "day": "Domingo", "time": "14:00", "name": "Hananki", "country": "EC", "genre": "Fusión Andina", "headliner": false },
+    { "day": "Domingo", "time": "14:30", "name": "Diablo Huma Rock", "country": "EC", "genre": "Rock", "headliner": false },
+
+    { "day": "Domingo", "time": "15:00", "name": "Diego y los Gatos del Callejón", "country": "EC", "genre": "Rock", "headliner": false },
+    { "day": "Domingo", "time": "15:30", "name": "N.O.F.E.", "country": "EC", "genre": "Metal", "headliner": false },
+
+    { "day": "Domingo", "time": "16:00", "name": "Grotesco", "country": "EC", "genre": "Metal", "headliner": false },
+    { "day": "Domingo", "time": "16:30", "name": "Hijos de Quién", "country": "EC", "genre": "Metal Alternativo", "headliner": false },
+
+    { "day": "Domingo", "time": "17:00", "name": "Eblis Desperation", "country": "EC", "genre": "Metal", "headliner": false },
+    { "day": "Domingo", "time": "17:40", "name": "Romasanta", "country": "EC", "genre": "Metal", "headliner": false },
+
+    { "day": "Domingo", "time": "18:20", "name": "Horcas", "country": "AR", "genre": "Thrash Metal", "headliner": false },
+    { "day": "Domingo", "time": "19:20", "name": "Nervosa", "country": "BR", "genre": "Thrash/Death Metal", "headliner": false },
+
+    { "day": "Domingo", "time": "20:10", "name": "Descomunal", "country": "EC", "genre": "Metalcore", "headliner": false },
+    { "day": "Domingo", "time": "21:10", "name": "A.N.I.M.A.L.", "country": "AR", "genre": "Metal", "headliner": true }
+
+  ],
+
+  "auditionsWinners": [
+    
+    { "name": "DIABLO HUMA ROCK", "country": "EC", "genre": "Rock", "headliner": true },
+    { "name": "DIEGO Y LOS GATOS DEL CALLEJÓN", "country": "EC", "genre": "Fusión", "headliner": true },
+    { "name": "EBLIS DESPERATION", "country": "EC", "genre": "Indie", "headliner": true },
+    { "name": "GIANNY", "country": "VE", "genre": "Funk/Disco", "headliner": true },
+    { "name": "HANANKI", "country": "EC", "genre": "Rock Alternativo", "headliner": true },
+    { "name": "IVAN PINO Y LOS NOSOTROS", "country": "MX", "genre": "Ska", "headliner": true },
+    { "name": "KEV SANTOS BAND", "country": "CU", "genre": "Hip Hop/Rap", "headliner": true },
+    { "name": "LUIS ALCIVAR", "country": "CU", "genre": "Hip Hop/Rap", "headliner": true },
+    { "name": "MELINNA", "country": "CU", "genre": "Hip Hop/Rap", "headliner": true },
+    { "name": "MENINO GUTTO", "country": "CU", "genre": "Hip Hop/Rap", "headliner": true },
+    { "name": "MUY VALEN", "country": "CU", "genre": "Hip Hop/Rap", "headliner": true },
+    { "name": "TAM TAM", "country": "CU", "genre": "Hip Hop/Rap", "headliner": true }
+
+  ]
+}

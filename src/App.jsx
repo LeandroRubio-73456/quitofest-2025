@@ -1,12 +1,12 @@
-import { NavBar } from './NavBar.jsx'
-import { HeroBanner } from './HeroBanner.jsx'
-import { ScrollIndicator } from './ScrollIndicator.jsx'
-import { BackgroundMask } from './BackgroundMask.jsx';
-import { Footer } from './Footer.jsx';
-import { Location } from './Location.jsx';
-import { Bands } from './Bands.jsx';
-import { Dates } from './Dates.jsx';
-import { Auditions } from './Auditions.jsx';
+import { NavBar } from './sections/NavBar.jsx'
+import { HeroBanner } from './sections/HeroBanner.jsx'
+import { ScrollIndicator } from './components/ScrollIndicator.jsx'
+import { BackgroundMask } from './components/BackgroundMask.jsx';
+import { Footer } from './sections/Footer.jsx';
+import { Location } from './sections/Location.jsx';
+import { Bands } from './sections/Bands.jsx';
+import { Dates } from './sections/Dates.jsx';
+import { Auditions } from './sections/Auditions.jsx';
 
 export const App = () => {
     return (

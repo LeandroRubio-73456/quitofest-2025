@@ -1,7 +1,7 @@
-import data from './data.json';
-import { Text } from "./Text"
-import { BandCard } from "./BandCard"
-import { Button } from "./Button"
+import data from '../assets/data/data.json';
+import { Text } from "../components/Text"
+import { BandCard } from "../components/BandCard"
+import { Button } from "../components/Button"
 
 export function Auditions() {
     return (
