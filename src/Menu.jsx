@@ -51,23 +51,21 @@ export function Menu() {
                     })}
                 </ul>
 
-                {/* Mobile overlay menu (shown when activeMenu is true) */}
-                {activeMenu && (
-                    <ul className="absolute inset-x-0 top-full flex flex-col gap-4 text-normal lg:hidden">
-                        {sections.map((section, i) => {
-                            const path = paths[i];
-                            const icon = icons[i];
-                            return (
-                                <li key={section}>
-                                    <a href={path} className="flex flex-row font-medium items-center gap-1 border-x-2 rounded-sm bg-rosa-transparente border-rosa-claro hover:bg-rosa-oscuro px-2 py-1 transition duration-200 ease-in-out">
-                                        {icon}
-                                        {section}
-                                    </a>
-                                </li>
-                            );
-                        })}
-                    </ul>
-                )}
+                {/* Mobile overlay menu with open/close animation (always rendered to animate) */}
+                <ul className={`absolute inset-x-0 top-full flex flex-col gap-4 text-normal lg:hidden transform origin-top transition-transform duration-300 ease-in-out ${activeMenu ? 'scale-y-100' : 'scale-y-0'} overflow-hidden bg-rosa-oscuro/75 backdrop-blur-sm p-4`}> 
+                    {sections.map((section, i) => {
+                        const path = paths[i];
+                        const icon = icons[i];
+                        return (
+                            <li key={section}>
+                                <a href={path} className="flex flex-row font-medium items-center gap-1 border-x-2 rounded-sm bg-rosa-transparente border-rosa-claro hover:bg-rosa-oscuro px-2 py-1 transition duration-200 ease-in-out">
+                                    {icon}
+                                    {section}
+                                </a>
+                            </li>
+                        );
+                    })}
+                </ul>
 
             </nav>
         </header>
