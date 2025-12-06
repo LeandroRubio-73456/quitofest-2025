@@ -16,8 +16,6 @@ export function HeroBanner() {
                             </a>
                         </div>
                     </div>
-                    <p className="bg-oscuro-transparente text-gray-300 text-sm text-center">DISCLAIMER: Proyecto de Portafolio No Oficial
-                    </p>
                 </div>
             </section>
         </>

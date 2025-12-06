@@ -101,7 +101,7 @@ export const App = () => {
                 </div>
             </section>
             <hr className='text-white w-5/6 mx-auto' />
-            <Location></Location>
+            <Location />
             <Footer></Footer>
 
         </>
