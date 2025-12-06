@@ -8,7 +8,7 @@ import { RiTailwindCssFill } from "react-icons/ri";
 export function Footer() {
     return (
         <footer className='bg-rosa/85 flex flex-col gap-5 items-center justify-center text-gray-200 p-5'>
-            <div className="flex flex-wrap justify-around items-start w-fit">
+            <div className="flex flex-wrap justify-around items-start w-fit gap-5">
                 <div className="flex flex-col justify-center items-center">
                     <h4 className="text-4xl text-white">QuitoFest</h4>
                     <p className="mb-3">Música independiente, pasión inagotable.</p>

@@ -10,7 +10,7 @@ export function Button({ text, section, onClick }) {
         <button
             type="button"
             onClick={onClick}
-            className={`${colorClasses} text-white text-lg px-5 py-2 cursor-pointer rounded-4xl focus:outline-2 transition duration-200 ease-in-out hover:scale-105`}
+            className={`${colorClasses} text-white px-5 py-2 cursor-pointer rounded-4xl focus:outline-2 transition duration-200 ease-in-out hover:scale-105`}
         >
             {text}
         </button>
