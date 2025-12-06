@@ -33,7 +33,7 @@ export const App = () => {
             </section>
             <hr className='text-white w-5/6 mx-auto' />
             <section id="dates">
-                <h3 className="text-7xl text-amarillo py-10">Horarios por Día</h3>
+                <h3 className="text-5xl text-amarillo py-10">Horarios por Día</h3>
                 <Text text={"El evento se llevará a cabo durante 3 días: viernes 28, sábado 29 y domingo 30 de noviembre. Cada día contará con múltiples presentaciones en diferentes escenarios, permitiéndote disfrutar de la mejor música independiente latinoamericana de forma continua."}></Text>
                 <div className="flex flex-col justify-center items-center mb-10">
                     <TabDay />
