@@ -18,9 +18,9 @@ export const App = () => {
             <HeroBanner />
             <ScrollIndicator />
             <section id="bands">
-                <h3 className="text-7xl text-verde py-10">Bandas</h3>
+                <h3 className="text-5xl text-verde py-10">Bandas</h3>
                 <Text text={"Estas son todas las bandas que se presentarán en el QuitoFest 2025. Desde artistas nacionales hasta reconocidas agrupaciones internacionales, cada una traerá su mejor propuesta musical para hacer de este festival una experiencia inolvidable."}></Text>
-                <div className="p-5 flex flex-row flex-wrap justify-center gap-10 w-5/6 mx-auto mb-10">
+                <div className="p-5 flex flex-wrap justify-center gap-10 w-5/6 mx-auto mb-10">
                     {data.lineup.map((band) => (
                         <BandCard
                             key={band.name}
@@ -41,9 +41,9 @@ export const App = () => {
             </section>
             <hr className='text-white w-5/6 mx-auto' />
             <section id="auditions">
-                <h3 className="text-7xl text-naranja py-10">Ganadores de las audiciones 2025</h3>
+                <h3 className="text-5xl text-wrap text-naranja py-10">Ganadores de las audiciones 2025</h3>
                 <Text text={"¡Ya tenemos a las 12 bandas seleccionadas para el Quitofest 2025! Ellas serán las encargadas de encender los escenarios con lo mejor de la música independiente nacional."}></Text>
-                <div className="p-5 flex flex-row flex-wrap justify-center gap-10 w-5/6 mx-auto mb-10">
+                <div className="p-5 flex flex-wrap justify-center gap-10 w-5/6 mx-auto mb-10">
                     {data.auditionsWinners.map((band) => (
                         <BandCard
                             key={band.name}

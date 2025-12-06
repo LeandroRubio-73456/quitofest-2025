@@ -9,8 +9,8 @@ export function HeroBanner() {
                     <div className=" text-white py-46 flex justify-center">
                         <div
                             className="bg-oscuro-transparente p-5 px-10 rounded-xl flex flex-col justify-center items-center text-center w-fit">
-                            <h2 className="text-9xl">QuitoFest</h2>
-                            <p className="text-xl mb-5">XXII FESTIVAL INTERNACIONAL DE MÚSICA INDEPENDIENTE</p>
+                            <h2 className="text-7xl">QuitoFest</h2>
+                            <p className="text-xl text-wrap mb-5">XXII FESTIVAL INTERNACIONAL DE MÚSICA INDEPENDIENTE</p>
                             <a href="#dates">
                                 <Button text={"Ver Horarios por Día"} />
                             </a>

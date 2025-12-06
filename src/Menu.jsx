@@ -20,9 +20,9 @@ export function Menu() {
         <>
             <header className="sticky top-0 shadow-lg z-50">
                 <p className="bg-rosa/85 backdrop-blur-sm text-gray-200 text-sm text-center flex justify-center gap-1">ESTO ES UNA **VERSIÓN DEMO DE PORTAFOLIO** - Hecha con React y Tailwind CSS - <a href="https://github.com/LeandroRubio-73456/quitofest-2025" target="_blank" rel="noopener noreferrer" className="underline flex gap-1">Ver el Código Fuente <IoOpenOutline /></a></p>
-                <nav className="flex flex-row justify-between items-center px-10 py-2 bg-rosa-oscuro/75 backdrop-blur-sm text-white">
+                <nav className="flex flex-col justify-between items-center px-10 py-2 bg-rosa-oscuro/75 backdrop-blur-sm text-white">
                     <h1 className="text-3xl font-semibold"><a href="#">QuitoFest2025</a></h1>
-                    <ul className="flex flex-row gap-4 text-normal">
+                    <ul className="flex flex-wrap gap-4 text-normal">
                         {sections.map((section, i) => {
                             const path = paths[i] || '#';
                             const icon = icons[i] || icons[0];
