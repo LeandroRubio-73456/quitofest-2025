@@ -1,4 +1,4 @@
-import data from '../assets/data/data.json';
+import data from '../data/data.json';
 import { BandCard } from '../components/BandCard';
 import { Text } from '../components/Text';
 
@@ -14,6 +14,7 @@ export function Bands() {
                         nameBand={band.name}
                         country={band.country}
                         gender={band.genre}
+                        color={`verde`}
                     />
                 ))}
             </div>

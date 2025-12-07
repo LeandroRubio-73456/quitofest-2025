@@ -23,7 +23,6 @@ export const App = () => {
             <hr className='text-white w-5/6 mx-auto' />
             <Location />
             <Footer></Footer>
-
         </>
     );
 };

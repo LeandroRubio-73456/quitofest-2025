@@ -1,28 +1,31 @@
-import data from '../assets/data/data.json';
+import data from '../data/data.json';
 import { BandCard } from './BandCard.jsx'
+import { Button } from './Button.jsx';
 import { useState } from "react";
 
 export function TabDay() {
     const days = ['Viernes', 'Sábado', 'Domingo'];
+    const colors = { "Viernes": "amarillo", "Sábado": "rosa", "Domingo": "naranja" }
     const [activeDay, setActiveDay] = useState(days[0]);
-    const buttomActiveClassName = "cursor-pointer text-xl text-oscuro font-medium px-5 py-2 bg-amarillo rounded-4xl hover:bg-amarillo-oscuro active:bg-amarillo-claro focus:outline-2 focus:outline-amarillo-oscuro transition duration-300 ease-in-out hover:scale-105";
-    const buttonInactiveClassName = "cursor-pointer text-xl text-oscuro/75 font-medium px-5 py-2 bg-amarillo-transparente rounded-4xl hover:text-oscuro/90 hover:bg-amarillo-oscuro active:bg-amarillo-claro focus:outline-2 focus:outline-amarillo-oscuro transition duration-300 ease-in-out hover:scale-105";
     const filteredBands = data.lineup.filter(band => band.day === activeDay)
         .sort((a, b) => a.time.localeCompare(b.time))
 
-    function DayButtons({ days }) {
+    function DayButtons({ days, colors }) {
         return (
             <>
-                {days.map((day) => (
-                    <button
-                        key={day}
-                        type="button"
-                        className={activeDay === day ? buttomActiveClassName : buttonInactiveClassName}
-                        onClick={() => setActiveDay(day)}
-                    >
-                        {day}
-                    </button>
-                ))}
+                {days.map((day) => {
+                    return (
+                        <Button
+                            key={day}
+                            text={day}
+                            onClick={() => setActiveDay(day)}
+                            color={colors[day]}
+                            textWhite={false}
+                            isActive={activeDay === day ? true : false}
+                        >
+                        </Button>
+                    )
+                })}
             </>
         );
     }
@@ -31,22 +34,26 @@ export function TabDay() {
         return (
             <>
                 {
-                    filteredBands.map((band) => (
+                    filteredBands.map((band) => {
+                        return (
                             <BandCard
                                 key={band.name}
                                 nameBand={band.name}
                                 country={band.country}
                                 gender={band.genre}
                                 time={band.time}
+                                color={colors[activeDay]}
                             />
-                    ))}
+                        )
+                    })}
             </>
         )
     }
+
     return (
         <>
             <div className="flex flex-col lg:flex-row gap-5 items-center justify-center bg-amarillo-transparente w-fit py-4 px-6 mb-5 rounded-br-lg rounded-tl-lg">
-                <DayButtons days={days} />
+                <DayButtons days={days} colors={colors} />
             </div>
             <div className='p-5 flex flex-wrap justify-center gap-10 w-3/4 mx-auto'>
                 <BandFiltered />

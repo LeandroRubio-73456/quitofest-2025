@@ -8,7 +8,7 @@ import { IoOpenOutline, IoClose, IoMenu } from "react-icons/io5";
 import { useState } from "react";
 
 import { Button } from "../components/Button";
-import { ElementMenu } from "../components/ElementMenu";
+import { MenuResponsive } from "../components/MenuResponsive";
 
 export function NavBar() {
     const sections = ['Inicio', 'Bandas', 'Horarios', 'Audiciones', 'Ubicación'];
@@ -33,9 +33,9 @@ export function NavBar() {
             <nav className="flex flex-row justify-between items-center px-2 lg:px-10 py-2 bg-rosa-oscuro/75 backdrop-blur-sm text-white">
                 <h1 className="text-3xl font-semibold"><a href="#">QuitoFest2025</a></h1>
                 <div className="lg:hidden">
-                    <Button text={activeMenu ? <IoClose className="size-6" /> : <IoMenu className="size-6" />} onClick={activatedMenu} />
+                    <Button text={activeMenu ? <IoClose className="size-6" /> : <IoMenu className="size-6" />} onClick={activatedMenu} color={`rosa`}/>
                 </div>
-                <ElementMenu activeMenu={activeMenu} sections={sections} paths={paths} icons={icons}></ElementMenu>
+                <MenuResponsive activeMenu={activeMenu} sections={sections} paths={paths} icons={icons}></MenuResponsive>
             </nav>
         </header>
     );
