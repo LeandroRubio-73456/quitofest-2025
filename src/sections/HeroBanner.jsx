@@ -11,7 +11,7 @@ export function HeroBanner(){
                         <h2 className="text-5xl lg:text-9xl">QuitoFest</h2>
                         <p className="text-base lg:text-xl text-wrap mb-5">XXII FESTIVAL INTERNACIONAL DE MÚSICA INDEPENDIENTE</p>
                         <a href="#dates">
-                            <Button text={"Ver Horarios por Día"} color={`rosa`}/>
+                            <Button text={"Ver Horarios por Día"} color={`rosa`} isActive/>
                         </a>
                     </div>
                 </div>
