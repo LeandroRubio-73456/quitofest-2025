@@ -1,7 +1,7 @@
 export function BandCard({ nameBand, country, gender, time, color}) {
 
   const colorClass = `bg-${color}-transparente border-${color} text-${color}`;
-  const colorClassTime = `bg-${color}-oscuro `
+  const colorClassTime = `bg-${color}-oscuro`
 
   return (
     <div className={`${colorClass} text-white relative w-fit h-fit p-4 rounded-br-lg rounded-tl-lg flex flex-col justify-center items-center text-center gap-2 border-t-8 oswald transition duration-200 ease-in-out hover:scale-110`}>
