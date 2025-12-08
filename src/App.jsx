@@ -7,10 +7,12 @@ import { Location } from './sections/Location.jsx';
 import { Bands } from './sections/Bands.jsx';
 import { Dates } from './sections/Dates.jsx';
 import { Auditions } from './sections/Auditions.jsx';
+import { ColorVariants } from './components/ColorsVariants.jsx';
 
 export const App = () => {
     return (
         <>
+            <ColorVariants></ColorVariants>
             <BackgroundMask />
             <NavBar />
             <HeroBanner />

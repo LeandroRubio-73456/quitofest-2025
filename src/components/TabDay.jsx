@@ -5,7 +5,7 @@ import { useState } from "react";
 
 export function TabDay() {
     const days = ['Viernes', 'Sábado', 'Domingo'];
-    const colors = { "Viernes": "amarillo", "Sábado": "rosa", "Domingo": "naranja" }
+    const colors = { "Viernes": "amarillo", "Sábado": "rosa", "Domingo": "verde" }
     const [activeDay, setActiveDay] = useState(days[0]);
     const filteredBands = data.lineup.filter(band => band.day === activeDay)
         .sort((a, b) => a.time.localeCompare(b.time))
