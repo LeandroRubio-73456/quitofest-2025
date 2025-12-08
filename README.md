@@ -16,8 +16,6 @@ Incluye una navegación fluida entre secciones informativas como la cartelera de
 
 - Componentes Reutilizables: Estructura modular para un mantenimiento sencillo y escalabilidad futura.
 
-- Navegación Sticky: Menú de navegación fijo en la parte superior con un diseño elegante.
-
 - Paleta de Colores y Tipografía: Uso de una paleta de colores vibrante y tipografía moderna que refleja la energía de un festival de música.
 
 - Secciones Clave: Información del evento organizada en secciones (Bandas, Horarios, Ubicación, etc.).
