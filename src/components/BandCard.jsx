@@ -6,7 +6,7 @@ export function BandCard({ nameBand, country, gender, time, color}) {
   return (
     <div className={`${colorClass} text-white relative w-fit h-fit p-4 rounded-br-lg rounded-tl-lg flex flex-col justify-center items-center text-center gap-2 border-t-8 oswald transition duration-200 ease-in-out hover:scale-110`}>
       {time && (
-        <div className={`${colorClassTime} absolute -top-4 text-xs font-semibold px-3 py-1 rounded-sm`}>
+        <div className={`${colorClassTime} absolute -top-4 text-xs font-semibold px-3 py-1 rounded-sm text-white`}>
           Hora: {time}
         </div>
       )}

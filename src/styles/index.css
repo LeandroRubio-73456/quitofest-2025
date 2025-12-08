@@ -2,19 +2,12 @@
 
 @import "tailwindcss";
 
-
 .lexend {
   font-family: "Lexend", sans-serif;
-  font-optical-sizing: auto;
-  font-weight: 400;
-  font-style: normal;
 }
 
 .oswald { 
   font-family: "Oswald", sans-serif;
-  font-optical-sizing: auto;
-  font-weight: 400;
-  font-style: normal;
 }
 
 @theme {
@@ -40,4 +33,57 @@
 
   --color-oscuro: #170b0f;
   --color-oscuro-transparente: #170b0fc4;
+}
+
+@layer utilities {
+
+  .bg-amarillo { @apply bg-[var(--color-amarillo)]; }
+  .bg-amarillo-oscuro { @apply bg-[var(--color-amarillo-oscuro)]; }
+  .bg-amarillo-claro { @apply bg-[var(--color-amarillo-claro)]; }
+  .bg-amarillo-transparente { @apply bg-[var(--color-amarillo-transparente)]; }
+
+  .text-amarillo { @apply text-[var(--color-amarillo)]; }
+  .text-amarillo-oscuro { @apply text-[var(--color-amarillo-oscuro)]; }
+  .text-amarillo-claro { @apply text-[var(--color-amarillo-claro)]; }
+  .text-amarillo-transparente { @apply text-[var(--color-amarillo-transparente)]; }
+
+  .border-amarillo { @apply border-[var(--color-amarillo)]; }
+  .border-amarillo-oscuro { @apply border-[var(--color-amarillo-oscuro)]; }
+  .border-amarillo-claro { @apply border-[var(--color-amarillo-claro)]; }
+
+
+  .bg-naranja { @apply bg-[var(--color-naranja)]; }
+  .bg-naranja-oscuro { @apply bg-[var(--color-naranja-oscuro)]; }
+  .bg-naranja-claro { @apply bg-[var(--color-naranja-claro)]; }
+  .bg-naranja-transparente { @apply bg-[var(--color-naranja-transparente)]; }
+
+  .text-naranja { @apply text-[var(--color-naranja)]; }
+  .text-naranja-oscuro { @apply text-[var(--color-naranja-oscuro)]; }
+  .text-naranja-claro { @apply text-[var(--color-naranja-claro)]; }
+
+  .border-naranja { @apply border-[var(--color-naranja)]; }
+
+  
+  .bg-rosa { @apply bg-[var(--color-rosa)]; }
+  .bg-rosa-oscuro { @apply bg-[var(--color-rosa-oscuro)]; }
+  .bg-rosa-claro { @apply bg-[var(--color-rosa-claro)]; }
+  .bg-rosa-transparente { @apply bg-[var(--color-rosa-transparente)]; }
+
+  .text-rosa { @apply text-[var(--color-rosa)]; }
+  .text-rosa-oscuro { @apply text-[var(--color-rosa-oscuro)]; }
+  .text-rosa-claro { @apply text-[var(--color-rosa-claro)]; }
+
+
+  .bg-verde { @apply bg-[var(--color-verde)]; }
+  .bg-verde-oscuro { @apply bg-[var(--color-verde-oscuro)]; }
+  .bg-verde-claro { @apply bg-[var(--color-verde-claro)]; }
+  .bg-verde-transparente { @apply bg-[var(--color-verde-transparente)]; }
+
+  .text-verde { @apply text-[var(--color-verde)]; }
+
+  
+  .bg-oscuro { @apply bg-[var(--color-oscuro)]; }
+  .bg-oscuro-transparente { @apply bg-[var(--color-oscuro-transparente)]; }
+
+  .text-oscuro { @apply text-[var(--color-oscuro)]; }
 }
