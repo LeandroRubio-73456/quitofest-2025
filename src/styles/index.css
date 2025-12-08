@@ -2,11 +2,13 @@
 
 @import "tailwindcss";
 
+@tailwind utilities;
+
 .lexend {
   font-family: "Lexend", sans-serif;
 }
 
-.oswald { 
+.oswald {
   font-family: "Oswald", sans-serif;
 }
 
@@ -37,53 +39,54 @@
 
 @layer utilities {
 
-  .bg-amarillo { @apply bg-[var(--color-amarillo)]; }
-  .bg-amarillo-oscuro { @apply bg-[var(--color-amarillo-oscuro)]; }
-  .bg-amarillo-claro { @apply bg-[var(--color-amarillo-claro)]; }
-  .bg-amarillo-transparente { @apply bg-[var(--color-amarillo-transparente)]; }
+  .bg-amarillo { background-color: var(--color-amarillo); }
+  .bg-amarillo-oscuro { background-color: var(--color-amarillo-oscuro); }
+  .bg-amarillo-claro { background-color: var(--color-amarillo-claro); }
+  .bg-amarillo-transparente { background-color: var(--color-amarillo-transparente); }
 
-  .text-amarillo { @apply text-[var(--color-amarillo)]; }
-  .text-amarillo-oscuro { @apply text-[var(--color-amarillo-oscuro)]; }
-  .text-amarillo-claro { @apply text-[var(--color-amarillo-claro)]; }
-  .text-amarillo-transparente { @apply text-[var(--color-amarillo-transparente)]; }
+  .bg-naranja { background-color: var(--color-naranja); }
+  .bg-naranja-oscuro { background-color: var(--color-naranja-oscuro); }
+  .bg-naranja-claro { background-color: var(--color-naranja-claro); }
+  .bg-naranja-transparente { background-color: var(--color-naranja-transparente); }
 
-  .border-amarillo { @apply border-[var(--color-amarillo)]; }
-  .border-amarillo-oscuro { @apply border-[var(--color-amarillo-oscuro)]; }
-  .border-amarillo-claro { @apply border-[var(--color-amarillo-claro)]; }
+  .bg-rosa { background-color: var(--color-rosa); }
+  .bg-rosa-oscuro { background-color: var(--color-rosa-oscuro); }
+  .bg-rosa-claro { background-color: var(--color-rosa-claro); }
+  .bg-rosa-transparente { background-color: var(--color-rosa-transparente); }
 
+  .bg-verde { background-color: var(--color-verde); }
+  .bg-verde-oscuro { background-color: var(--color-verde-oscuro); }
+  .bg-verde-claro { background-color: var(--color-verde-claro); }
+  .bg-verde-transparente { background-color: var(--color-verde-transparente); }
 
-  .bg-naranja { @apply bg-[var(--color-naranja)]; }
-  .bg-naranja-oscuro { @apply bg-[var(--color-naranja-oscuro)]; }
-  .bg-naranja-claro { @apply bg-[var(--color-naranja-claro)]; }
-  .bg-naranja-transparente { @apply bg-[var(--color-naranja-transparente)]; }
+  .bg-oscuro { background-color: var(--color-oscuro); }
+  .bg-oscuro-transparente { background-color: var(--color-oscuro-transparente); }
 
-  .text-naranja { @apply text-[var(--color-naranja)]; }
-  .text-naranja-oscuro { @apply text-[var(--color-naranja-oscuro)]; }
-  .text-naranja-claro { @apply text-[var(--color-naranja-claro)]; }
+  .border-amarillo { border-color: var(--color-amarillo); }
+  .border-naranja { border-color: var(--color-naranja); }
+  .border-rosa { border-color: var(--color-rosa); }
+  .border-verde { border-color: var(--color-verde); }
+  .border-oscuro { border-color: var(--color-oscuro); }
 
-  .border-naranja { @apply border-[var(--color-naranja)]; }
+  .border-amarillo-transparente { border-color: var(--color-amarillo-transparente); }
+  .border-naranja-transparente { border-color: var(--color-naranja-transparente); }
+  .border-rosa-transparente { border-color: var(--color-rosa-transparente); }
+  .border-verde-transparente { border-color: var(--color-verde-transparente); }
+  .border-oscuro-transparente { border-color: var(--color-oscuro-transparente); }
 
-  
-  .bg-rosa { @apply bg-[var(--color-rosa)]; }
-  .bg-rosa-oscuro { @apply bg-[var(--color-rosa-oscuro)]; }
-  .bg-rosa-claro { @apply bg-[var(--color-rosa-claro)]; }
-  .bg-rosa-transparente { @apply bg-[var(--color-rosa-transparente)]; }
+  .hover\:bg-amarillo-oscuro:hover { background-color: var(--color-amarillo-oscuro); }
+  .hover\:bg-naranja-oscuro:hover { background-color: var(--color-naranja-oscuro); }
+  .hover\:bg-rosa-oscuro:hover { background-color: var(--color-rosa-oscuro); }
+  .hover\:bg-verde-oscuro:hover { background-color: var(--color-verde-oscuro); }
 
-  .text-rosa { @apply text-[var(--color-rosa)]; }
-  .text-rosa-oscuro { @apply text-[var(--color-rosa-oscuro)]; }
-  .text-rosa-claro { @apply text-[var(--color-rosa-claro)]; }
+  .active\:bg-amarillo-claro:active { background-color: var(--color-amarillo-claro); }
+  .active\:bg-naranja-claro:active { background-color: var(--color-naranja-claro); }
+  .active\:bg-rosa-claro:active { background-color: var(--color-rosa-claro); }
+  .active\:bg-verde-claro:active { background-color: var(--color-verde-claro); }
 
-
-  .bg-verde { @apply bg-[var(--color-verde)]; }
-  .bg-verde-oscuro { @apply bg-[var(--color-verde-oscuro)]; }
-  .bg-verde-claro { @apply bg-[var(--color-verde-claro)]; }
-  .bg-verde-transparente { @apply bg-[var(--color-verde-transparente)]; }
-
-  .text-verde { @apply text-[var(--color-verde)]; }
-
-  
-  .bg-oscuro { @apply bg-[var(--color-oscuro)]; }
-  .bg-oscuro-transparente { @apply bg-[var(--color-oscuro-transparente)]; }
-
-  .text-oscuro { @apply text-[var(--color-oscuro)]; }
+  .focus\:outline-amarillo-oscuro:focus { outline-color: var(--color-amarillo-oscuro); }
+  .focus\:outline-naranja-oscuro:focus { outline-color: var(--color-naranja-oscuro); }
+  .focus\:outline-rosa-oscuro:focus { outline-color: var(--color-rosa-oscuro); }
+  .focus\:outline-verde-oscuro:focus { outline-color: var(--color-verde-oscuro); }
+  .focus\:outline-oscuro:focus { outline-color: var(--color-oscuro); }
 }
